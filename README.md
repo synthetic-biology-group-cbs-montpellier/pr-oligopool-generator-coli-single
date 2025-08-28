@@ -1,4 +1,4 @@
-<img width="321" height="337" alt="image" src="https://github.com/user-attachments/assets/4593eafa-f32e-45ff-bc67-44f554f83637" />
+<img width="1281" height="396" alt="image" src="https://github.com/user-attachments/assets/777499ed-c558-4274-9f18-994f1eb9f47c" />
 
 
 # Coli_oligopool_prom_rbs_library_generator_single
@@ -70,7 +70,7 @@ PRIMER_SITE_3_PRIME = "TGTCAA"  # 3' primer annealing site
 
 ## Usage
 ```bash
-python PR_library_generator.py
+python PR_library_generator_single.py
 ```
 
 The script automatically processes the library data, applies all filtering steps, performs diversity selection, adds cloning sites, and generates the complete analysis report. All parameters can be modified at the top of the script before execution.
