@@ -1,8 +1,8 @@
 <img width="1281" height="396" alt="image" src="https://github.com/user-attachments/assets/777499ed-c558-4274-9f18-994f1eb9f47c" />
 
 
-# Coli_oligopool_prom_rbs_library_generator_single
-This script analyzes combinatorial DNA library data from Kosuri et al. (9 https://doi.org/10.1073/pnas.1301301110) to filter, select, and prepare diverse sequence variants for oligopool ordering. It performs comprehensive quality control, diversity analysis, and generates ready-to-order sequences with cloning sites.
+# pr-oligopool-generator-coli-single
+This script analyzes combinatorial DPromoter-RBS (PR) library data from Kosuri et al. (https://doi.org/10.1073/pnas.1301301110) to filter, select, and prepare diverse sequence variants for oligopool ordering. It performs quality control, diversity analysis, and generates ready-to-order sequences with cloning sites.
 
 
 ## Filtering Steps
@@ -12,6 +12,9 @@ This script analyzes combinatorial DNA library data from Kosuri et al. (9 https:
 4. **Sequence Reconstruction**: Filters sequences missing critical components
 5. **Diversity Selection**: Selects variants using intensity binning and k-mer clustering
 
+## Input files 
+sd01.xlsx. sd02.xlsx, sd03.xlsx from Kosuri et al. (provided, put them in the target folder)
+
 ## User-Configurable Parameters
 
 ### Sequence Filtering
@@ -19,7 +22,7 @@ This script analyzes combinatorial DNA library data from Kosuri et al. (9 https:
 MIN_SEQUENCE_LENGTH = 50        # Minimum sequence length (bp)
 MAX_SEQUENCE_LENGTH = 70        # Maximum sequence length (bp)
 EXCLUDE_RBS_NAMES = [...]       # RBS names to exclude (e.g., "DeadRBS")
-EXCLUDE_PROMOTER_NAMES = [...]  # Promoter names to exclude
+EXCLUDE_PROMOTER_NAMES = [...]  # Promoter names to exclude (e.g., "pTEtO")
 ```
 
 ### Variant Selection
