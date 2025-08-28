@@ -41,10 +41,11 @@ USE_LOG_SCALE_BINNING = True    # Log vs linear intensity binning
 
 ### Molecular Cloning Sites
 ```python
-BSAI_SITE_5_PRIME = "GGTCTC"    # 5' BsaI site
-BSAI_SITE_3_PRIME = "GAGACC"    # 3' BsaI site
-PRIMER_SITE_5_PRIME = "TTGACA"  # 5' primer annealing site
-PRIMER_SITE_3_PRIME = "TGTCAA"  # 3' primer annealing site
+BSAI_SITE_5_PRIME = "GGTCTCTgtac"  # 5' BsaI site with user defined overhang in lower case
+BSAI_SITE_3_PRIME = "ggtgTGAGACC"  # 5' BsaI site with user defined overhang in lower case
+
+PRIMER_SITE_5_PRIME = "CAGGAAACAGCTATGAC"  # 5' user defined primer annealing site
+PRIMER_SITE_3_PRIME = "CAGGAAACAGCTATGAC"  # 3' user defined primer annealing site
 ```
 
 ## Main Outputs
