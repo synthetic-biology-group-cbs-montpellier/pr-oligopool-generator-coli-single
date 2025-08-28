@@ -76,4 +76,4 @@ PRIMER_SITE_3_PRIME = "TGTCAA"  # 3' primer annealing site
 python PR_library_generator_single.py
 ```
 
-The script automatically processes the library data, applies all filtering steps, performs diversity selection, adds cloning sites, and generates the complete analysis report. All parameters can be modified at the top of the script before execution.
+The script automatically processes the library data, applies all filtering steps, performs diversity selection, adds cloning sites, primer annealing sites, and generates the complete analysis report. All parameters can be modified at the top of the script before execution. All sequences available in the csv format.
