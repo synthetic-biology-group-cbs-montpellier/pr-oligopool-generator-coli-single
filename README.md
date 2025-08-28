@@ -2,7 +2,7 @@
 
 
 # pr-oligopool-generator-coli-single
-This script analyzes combinatorial DPromoter-RBS (PR) library data from Kosuri et al. (https://doi.org/10.1073/pnas.1301301110) to filter, select, and prepare diverse sequence variants for oligopool ordering. It performs quality control, diversity analysis, and generates ready-to-order sequences with cloning sites.
+This script analyzes combinatorial Promoter-RBS (PR) library data from Kosuri et al. (https://doi.org/10.1073/pnas.1301301110) to filter, select, and prepare diverse sequence variants for oligopool ordering. It performs quality control, diversity analysis, and generates ready-to-order sequences with cloning sites.
 
 
 ## Filtering Steps
