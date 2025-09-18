@@ -14,6 +14,7 @@
 # %% [markdown]
 # ## Setup and Output Directory Creation
 # Create a timestamped folder for this analysis run and copy the script.
+# To amplify the library, use the following PCR primers: skpp-202-F AATCCTTGCGTCAATGGTTC and skpp-202-R GGGTTCTCGGATTTTACACG.
 
 # %%
 import pandas as pd
