@@ -1364,14 +1364,14 @@ else:
 # Step 9: Add BsaI sites and primer annealing sites to selected variants
 # User-configurable BsaI sites for 5' and 3' ends
 # These sites will be added to the selected variants for cloning purposes
-BSAI_SITE_5_PRIME = "GGTCTCTgtac"  # User can change this
-BSAI_SITE_3_PRIME = "ggtgTGAGACC"  # User can change this
+BSAI_SITE_5_PRIME = "GGTCTCAggca"  # User can change this
+BSAI_SITE_3_PRIME = "actaTGAGACC"  # User can change this
 
 # User-configurable primer annealing sites for PCR amplification
 # These sites will be added outside the BsaI sites for primer binding
 # Structure: [PRIMER_5] + [BSAI_5] + [SEQUENCE] + [BSAI_3] + [PRIMER_3]
-PRIMER_SITE_5_PRIME = "GTAAAACGACGGCCAGT"     # M13 forward primer site
-PRIMER_SITE_3_PRIME = "CAGGAAACAGCTATGAC"     # M13 reverse primer site
+PRIMER_SITE_5_PRIME = "AATCCTTGCGTCAATGGTTC"     # skpp-202-F from kosuri et al 2012
+PRIMER_SITE_3_PRIME = "CGTGTAAAATCCGAGAACCC"     # skpp-202-R from kosuri et al 2012
 
 
 def add_bsai_sites_to_sequences(df, site_5_prime, site_3_prime):
