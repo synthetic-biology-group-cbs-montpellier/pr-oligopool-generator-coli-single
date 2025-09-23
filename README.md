@@ -1,5 +1,6 @@
 <img width="1281" height="396" alt="image" src="https://github.com/user-attachments/assets/777499ed-c558-4274-9f18-994f1eb9f47c" />
 
+<img width="912" height="283" alt="image" src="https://github.com/user-attachments/assets/15f45d87-22e7-4f73-a4f5-50b21788a89b" />
 
 # pr-oligopool-generator-coli-single
 This script analyzes combinatorial Promoter-RBS (PR) library data from Kosuri et al. (https://doi.org/10.1073/pnas.1301301110) to filter, select, and prepare diverse sequence variants for oligopool ordering. It performs quality control, diversity analysis, and generates ready-to-order sequences with cloning sites.
